@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1{
+    color: blue;
+}
+header h1{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+header p{
+    font-size: 18px;
+    margin-bottom: 15px; ;
+    
+}
+header{
+    background:linear-gradient(to right,darkblue,black);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+.card-section{
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid darkblue;
+    transition: 0.3s;
+}
+.card-section:hover{
+    background-color: #eef5ff;
+    transform: translateY(-3px);
+}
+#about{
+    background-color: #f0f8ff;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    max-width: 900px;
+}
+h2{
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+padding-bottom: 5px ;
+}
+li{
+    margin:8px;    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: darkblue;
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea{
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus{
+    outline: none;
+    border: 2px solid darkblue;
+}
+textarea{
+    height: 100px;
+}
+
+button{
+    background-color: darkblue;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: navy;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+.reset-btn {
+    background-color: gray;
+}
+
+.reset-btn:hover {
+    background-color: darkgray;
+}
+form{
+    max-width: 500px;
+    text-align: left;
+}
+
+footer{
+    background:linear-gradient(to right,black,darkblue);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer p{
+    margin: 0;
+}
+section{
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid darkblue;
+}
+
+a{
+    color: darkblue;
+    font-weight: bold;
+}
+.github-link{
+    color: darkred;
+}
+label{
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    main{
+        margin: 10px;
+        padding: 15px;
+    }
+header h1{
+font-size: 28px;
+}
+nav a {
+    display: block;
+    margin: 8px 0;
+}
+}
+    
